@@ -1,0 +1,50 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  --calcite-ui-brand: #003366;
+
+}
+
+calcite-loader {
+  align-self: center;
+  justify-self: center;
+}
+
+#info-content {
+  padding: 0.75rem;
+}
+
+calcite-rating {
+  margin-top: 0.25rem;
+}
+
+.custom-header {
+  display: flex;
+  padding: 0 1rem;
+  background-color: var(--calcite-ui-foreground-1);
+}
+
+.custom-header-controls {
+  margin-inline-start: auto;
+  display: flex;
+  align-self: center;
+}
+
+.custom-label-wrapper {
+  display: flex;
+  border: 1px solid var(--calcite-ui-border-1);
+  margin-inline-start: 1rem;
+  padding: 0 0.5rem;
+}
+
+.header-switch {
+  margin: 0 0.5rem;
+}
